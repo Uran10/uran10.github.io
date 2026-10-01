@@ -1,3 +1,8 @@
+---
+title:  "AI"
+date:   2026-08-04 16:16
+categories: blog
+---
 Ormai siamo nell'era dell'AI (o IA se lo leggi all'italiana), ma cosa si nasconde sotto cloud, openAI, etc...
 
 Anche al lavoro sta girando il diktat "fallo fare all'AI", ma da programmatore informatico con una laurea in informatica mi vergogno nel non sapere praticamente nulla dell'intelligenza artificiale. Non mi riferisco solo a come usarla correttamente, ma soprattutto su come funziona dietro le quinte.

@@ -1,3 +1,8 @@
+---
+title:  "La casta dei metabaroni"
+date:   2026-08-10 10:25
+categories: blog
+---
 Ho finito di leggere **La casta dei meta-baroni** scritta da Alejandro Jodorowsky (vi ricordate l'Incal?) e disegnata da Juan Giménez.
 *La saga (ambientata nell'universo dell'incal) racconta l'epopea insanguinata e tragica di una dinastia di guerrieri supremi, unendo la tragedia greca e il dramma shakespeariano a visioni futuristiche*
 

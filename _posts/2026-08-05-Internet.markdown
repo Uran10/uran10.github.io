@@ -1,3 +1,8 @@
+---
+title:  "Internet"
+date:   2026-08-05 11:50
+categories: blog
+---
 Ultimamente la rete andava molto lenta e larvando da casa, in due, era diventato un bel problema, ci siamo accontentanti/arrangiati fino a quando mia moglie è esplosa e di impeto mi ha attivato TIM (eravamo a wind 3).
 La situazione effettivamente era diventata insostenibile ,si faceva fatica a vedere anche Netflix...
 

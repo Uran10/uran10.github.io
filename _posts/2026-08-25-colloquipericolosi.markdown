@@ -1,3 +1,8 @@
+---
+title:  "Colloqui pericolosi"
+date:   2026-08-25 11:16
+categories: blog
+---
 E' tanto che non faccio un colloquio, non ho voglia, (lo so è uno dei motivi per cui non evolvo come un pokemon), ma non avevo mai pensato che potrebbero diventare "Pericolosi".  
 Ormai i nostri PC contengono le *chiavi* della nostra vita, non solo segreti personali, ma anche chiavi per accedere a servizi, criptovalute o conti in banca. Gli hacker(o come li volete chiamare) lo sanno e si stanno facendo sempre più scaltri per rubarli.
 
