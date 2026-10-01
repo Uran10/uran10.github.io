@@ -1,0 +1,15 @@
+Ultimamente la rete andava molto lenta e larvando da casa, in due, era diventato un bel problema, ci siamo accontentanti/arrangiati fino a quando mia moglie è esplosa e di impeto mi ha attivato TIM (eravamo a wind 3).
+La situazione effettivamente era diventata insostenibile ,si faceva fatica a vedere anche Netflix...
+
+In questi giorni che aspettavo il tecnico per attivarmi la linea, mi sono messo (IN RITARDO) a smanettare sul modem e ho notato il vero problema: la mia linea va al massimo a 36 Mbps, ma la velocità massima a cui potevo andare era 8 Mbps, quegli s**onzi devono aver fatto diventare la mia linea un ADSL a 8 mega...
+
+Vabbe, inutile piangere sul latte versato, dovevo guardarci prima.
+Oggi è arrivato il tecnico TIM e mi ha attivato tutto (Linea FTTC) confermando che il massimo raggiungibile è 36 mega, che non è molto, ma almeno possiamo lavorare.
+Avevo pensato a STARLINK di Musk, ma mia moglie è stata più veloce.
+
+La cosa bella è che mi chiede come mai non abbiamo fatto la fibra FTTH, ma nessun operatore ci permette di attivarla. A quanto pare gli armadi sono pieni e fino a quando non cambiano qualcosa a monte io non potrò richiederla :(
+
+Il contratto non posso disdirlo prima di 2 anni, perché è pieno di attivazioni costose che riscontano in bolletta.
+C'è di buono che ho fatto TIMVISION, che ha dentro netflix, HBO, e altro a 8 euro, che è più o meno quello che spendevo per netflix da sola. 
+
+Vedremo come va.
