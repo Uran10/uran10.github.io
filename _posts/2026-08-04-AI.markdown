@@ -11,3 +11,14 @@ Spinto da questa domanda sono andato su reddit  ho chiesto un testo per approfon
 
 [Libro su AI](https://www.reddit.com/r/ItalyInformatica/s/VIhHxOpaYR)
 (mi hanno messo anche un voto negativo, ma non ho mai capito queste dinamiche da social network)
+
+Le risposte sono state varie, riassumendo mi sono stati consigliati:
+* **“Intelligenza artificiale. Un approccio moderno” di Russell e Norvig** che però dicono essere molto accademico e forse un pò datato.
+* **“L’intelligenza artificiale. Una guida per esseri umani pensanti” di Melanie Mitchell** un infarinatura generale senza entrare troppo nel dettaglio.
+* [**“Let’s build GPT”** da Andrej Karpathy**](https://youtu.be/kCc8FmEb1nY?is=fkOY-DUMD3MMiI0B) un video che "insegna facendo"
+* **"If anybody builds it, everyone dies."** nessuna spiegazione, ma il titolo mi attira.
+* **"Build a Large Language Model from Scratch"** dicono che però che nasconde una parte della magia.
+* **"Speech and Language Processing"** di Dan Jurafsky and James H. Martin (gratis sul sito dell'università di Stanford), Va molto nel dettaglio ma utilizza un linguaggio abbastanza accessibile e non dà nulla per scontato.
+* [**Build a Large Language Model (From Scratch) di Sebastian Raschka**](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+
+Alla fine il vincitore è stato “L’intelligenza artificiale. Una guida per esseri umani pensanti” che mi sembrava un buon inizio per capire dove girarmi. Lo sto leggendo ed è veramente ben scritto e spiega anche come si è arrivati all'AI attuale.
