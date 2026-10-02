@@ -1,6 +1,6 @@
 ---
 title:  "Aggiornamento"
-date:   2026-10-01 23:45
+date:   2026-10-01 23:46
 categories: blog
 ---
 Qualche aggiornamento nel blog.  
