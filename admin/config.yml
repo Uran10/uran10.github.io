@@ -1,0 +1,23 @@
+# Configurazione del Backend (Usa Git Gateway tramite Netlify)
+backend:
+  name: git-gateway
+  branch: main # Cambia in 'master' se il tuo ramo principale si chiama così
+
+# Gestione dei file multimediali (immagini del blog)
+media_folder: "assets/images/posts" # Cartella nel repo dove salvare le immagini caricate dal CMS
+public_folder: "/assets/images/posts" # Percorso usato da Jekyll per mostrare l'immagine nel browser
+
+# Definizione dei Contenuti (Collections)
+collections:
+  - name: "blog"
+    label: "Post del Blog"
+    folder: "_posts" # La cartella nativa di Jekyll
+    create: true # Permette di creare nuovi post dal CMS
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Formato del file richiesto da Jekyll
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Data di Pubblicazione", name: "date", widget: "datetime" }
+      - { label: "Immagine di Copertina", name: "image", widget: "image", required: false }
+      - { label: "Descrizione/Incipit", name: "description", widget: "string", required: false }
+      - { label: "Testo del Post", name: "body", widget: "markdown" }
