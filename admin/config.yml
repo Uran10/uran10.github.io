@@ -1,7 +1,8 @@
 # Configurazione del Backend (Usa Git Gateway tramite Netlify)
 backend:
-  name: git-gateway
+  name: turbo-github
   branch: main # Cambia in 'master' se il tuo ramo principale si chiama così
+  turbo_site_id: "151db84c-1fc6-49cd-938e-96f4502843bd"
 
 # Gestione dei file multimediali (immagini del blog)
 media_folder: "assets/images/posts" # Cartella nel repo dove salvare le immagini caricate dal CMS
