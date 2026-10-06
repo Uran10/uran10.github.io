@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>98.css example</title>
+  <title>{{ page.title }}</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
 <style>
@@ -139,6 +139,7 @@
 	    {% for post in site.posts %}
       	<div style="margin-bottom: 4px;font-size: 30px;font-family: Arial;">
   		{{ post.title }}
+		<p>{{ page.date }}</p>
 	</div>
       <div class="field-border" style="padding: 8px; font-size: 20px;font-family: Arial;">
           {{ post.content }}
@@ -146,6 +147,7 @@
 	<div class="status-field-border" style="padding: 8px">
   		Commenti?
 	</div>
+	<br>
  {% endfor %}
     </div>
   </div>
