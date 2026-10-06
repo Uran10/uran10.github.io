@@ -138,10 +138,10 @@
 	  
 	    {% for post in site.posts %}
       	<div style="margin-bottom: 4px;font-size: 30px;font-family: Arial;">
-  		{{ page.title }}
+  		{{ post.title }}
 	</div>
       <div class="field-border" style="padding: 8px; font-size: 20px;font-family: Arial;">
-          {{ content }}
+          {{ post.content }}
       </div>
 	<div class="status-field-border" style="padding: 8px">
   		Commenti?
