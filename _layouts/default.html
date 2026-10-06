@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>98.css example</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://unpkg.com/98.css" />
+<style>
+    body {
+        margin: 0;
+        background: #008083; /* sfondo verde */
+    }
+
+    /* Barra stile Windows 3.11 */
+    .winbar {
+        height: 40px;
+        width: 100%;
+        background: #c0c0c0; /* grigio classico Win 3.x */
+        
+        /* Effetto 3D con bordi */
+        border-top: 2px solid #ffffff;   /* chiaro */
+        border-left: 2px solid #ffffff;  /* chiaro */
+        border-bottom: 2px solid #808080; /* scuro */
+        border-right: 2px solid #808080;  /* scuro */
+
+        display: flex;
+        align-items: center;
+        padding-left: 2px;
+        box-sizing: border-box;
+    }
+
+    .winbar img {
+        height: 30px;
+        width: 60px;
+        object-fit: cover;
+    }
+
+    /* Contenitore principale */
+    .layout {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    /* Colonna sinistra */
+    .left {
+        width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* Icone Win98 */
+    .icon {
+       	width: 80px;
+    	text-align: center;
+    	cursor: pointer;
+    	color: white;
+    	font-family: sans-serif;
+    }
+
+    .icon img {
+    	width: 64px;
+    	height: 64px;
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    /* Colonna destra */
+    .right {
+        width: 800px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-left: 10px;
+    }
+
+    /* Responsive: quando lo schermo è troppo piccolo */
+    @media (max-width: 1000px) {
+        .layout {
+            flex-direction: column; /* la colonna sinistra va sopra */
+        }
+
+        .right {
+            width: 100%; /* si adatta */
+            margin-left: 0;
+            margin-top: 10px;
+        }
+ /* NUOVO: icone in orizzontale */
+    .left {
+        width: 100%;              /* si espande */
+        display: flex;            /* le icone vanno in riga */
+        flex-wrap: wrap;          /* vanno a capo se serve */
+        gap: 10px;                /* spazio tra icone */
+    }
+
+    .icon {
+        margin-bottom: 0;         /* niente margine verticale */
+    }
+    }
+</style>
+</head>
+
+<body>
+<div class="winbar">
+    <img src="img/immaginebase.png" alt="Logo">
+</div>
+
+<div class="layout">
+
+    <div class="left">
+    <div class="icon" data-url="pagina1.html">
+        <img src="assets/images/WINHE002.PNG" alt="About me">
+        <span>About me</span>
+    </div>
+
+    <div class="icon" data-url="pagina2.html">
+        <img src="assets/images/CLIPB001.PNG" alt="Blog">
+        <span>Blog</span>
+    </div>
+
+    <div class="icon" data-url="pagina3.html">
+        <img src="assets/images/PROGM012.PNG" alt="Apps">
+        <span>Apps</span>
+    </div>
+    </div>
+
+    <div class="right">
+  <div class="window">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        Blog
+      </div>
+  <div class="title-bar-controls">
+    <button aria-label="Any Text" class="help"></button>
+    <button aria-label="Any Text" class="close"></button>
+  </div>
+    </div>
+    <div class="window-body">
+      <p>Questa è una prova di layout per il blog</p>
+	  
+	    {% for post in site.posts %}
+      	<div style="margin-bottom: 4px;font-size: 30px;font-family: Arial;">
+  		{{ page.title }}
+	</div>
+      <div class="field-border" style="padding: 8px; font-size: 20px;font-family: Arial;">
+          {{ content }}
+      </div>
+	<div class="status-field-border" style="padding: 8px">
+  		Commenti?
+	</div>
+ {% endfor %}
+    </div>
+  </div>
+    </div>
+
+</div>
+</body>
+</html>
