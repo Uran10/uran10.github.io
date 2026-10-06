@@ -139,9 +139,8 @@
 	    {% for post in site.posts %}
       	<div style="margin-bottom: 4px;font-size: 30px;font-family: Arial;">
   		{{ post.title }}
-		<p>{{ post.date }}</p>
 	</div>
-	<p>{{ page.date | date: "%-d %B %Y" }}</p>
+	<p>{{ post.date | date: "%-d %B %Y" }}</p>
       <div class="field-border" style="padding: 8px; font-size: 20px;font-family: Arial;">
           {{ post.content }}
       </div>
