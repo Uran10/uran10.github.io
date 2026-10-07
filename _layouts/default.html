@@ -137,7 +137,7 @@
       <p>Questa è una prova di layout per il blog</p>
 	  
  {% for post in site.posts %}
-    <p>{{ post.date | date: "%-d %B %Y" }}</p>
+    <p>{{ post.date | localize: "%-d %B %Y" }}</p>
 	<div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
   		{{ post.title }}
 	</div>
