@@ -100,7 +100,7 @@
 
 <body>
 <div class="winbar">
-    <img src="img/immaginebase.png" alt="Logo">
+    <img src="img/immaginebase.png" alt="Logo"><div style="font-size: 20px;">Roberto M.</div>
 </div>
 
 <div class="layout">
@@ -138,16 +138,17 @@
 	  
  {% for post in site.posts %}
     <p>{{ post.date | date: "%-d %B %Y" }}</p>
-	<div style="margin-bottom: 4px;font-size: 30px;font-family: Arial;">
+	<div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
   		{{ post.title }}
 	</div>
-      <div class="field-border" style="padding: 8px; font-size: 20px;font-family: Arial;">
+      <div class="field-border" style="padding: 8px; font-size: 16px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
           {{ post.content }}
       </div>
 	<div class="status-field-border" style="padding: 8px">
   		Commenti?
 	</div>
 	<br>
+	<hr>
  {% endfor %}
     </div>
   </div>
