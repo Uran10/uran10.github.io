@@ -29,6 +29,11 @@ title: About
 			<p>
 				Un giorno saprò cosa scrivere in questa sezione.
 			</p>
+			<hr>
+			<p>
+				Foto: <a href="https://glass.photo/uranio">glass.photo</a>
+				Reddit: <a href="https://www.reddit.com/user/uranio/">user/uranio/</a>
+			</p>
 		</div>
 	</div>
 
