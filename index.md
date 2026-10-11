@@ -18,7 +18,7 @@ title: Blog
 	  
  {% for post in site.posts %}
  <hr>
-    <p>{{ post.date | localize: "%-d %B %Y" }}</p>
+    <p>{% include date_it.html date=post.date %}</p>
 	<div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
   		{{ post.title }}
 	</div>

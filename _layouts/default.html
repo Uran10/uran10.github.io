@@ -4,106 +4,8 @@
   <title>{{ page.title }}</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
-<style>
-    body {
-        margin: 0;
-        background: #008083; /* sfondo verde */
-    }
-
-    /* Barra stile Windows 3.11 */
-    .winbar {
-        height: 40px;
-        width: 100%;
-        background: #c0c0c0; /* grigio classico Win 3.x */
-        
-        /* Effetto 3D con bordi */
-        border-top: 2px solid #ffffff;   /* chiaro */
-        border-left: 2px solid #ffffff;  /* chiaro */
-        border-bottom: 2px solid #808080; /* scuro */
-        border-right: 2px solid #808080;  /* scuro */
-
-        display: flex;
-        align-items: center;
-        padding-left: 2px;
-        box-sizing: border-box;
-    }
-
-    .winbar img {
-        height: 30px;
-        width: 60px;
-        object-fit: cover;
-    }
-
-    /* Contenitore principale */
-    .layout {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
-
-    /* Colonna sinistra */
-    .left {
-		width: 200px;
-		padding: 10px;
-		box-sizing: border-box;
-    }
-
-    /* Icone Win98 */
-    .icon {
-       	width: 80px;
-    	text-align: center;
-    	cursor: pointer;
-    	color: white;
-    	font-family: sans-serif;
-		margin-bottom: 20px; /* spazio verticale */
-		display: block;
-    }
-
-    .icon img {
-    	width: 64px;
-    	height: 64px;
-    	display: block;
-    	margin: 0 auto;
-    }
-	
-	.responsive-image {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
-
-    /* Colonna destra */
-    .right {
-        width: 800px;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-left: 10px;
-    }
-
-    /* Responsive: quando lo schermo è troppo piccolo */
-    @media (max-width: 1000px) {
-        .layout {
-            flex-direction: column; /* la colonna sinistra va sopra */
-        }
-
-        .right {
-            width: 100%; /* si adatta */
-            margin-left: 0;
-            margin-top: 10px;
-        }
- /* NUOVO: icone in orizzontale */
-    .left {
-        width: 100%;              /* si espande */
-        display: flex;            /* le icone vanno in riga */
-        flex-wrap: wrap;          /* vanno a capo se serve */
-        gap: 10px;                /* spazio tra icone */
-    }
-
-    .icon {
-        margin-bottom: 0;         /* niente margine verticale */
-    }
-    }
-</style>
+  <link rel="stylesheet" href="assets/css/stile_base.css" />
+  <link rel="stylesheet" href="assets/css/card.css" />
 </head>
 
 <body>
@@ -124,9 +26,14 @@
         <span>Blog</span>
     </a>
 
-    <a class="icon" data-url="apps.html">
+    <a class="icon" href="apps.html">
         <img src="assets/images/PROGM012.PNG" alt="Apps">
         <span>Apps</span>
+    </a>
+	
+	<a class="icon" href="https://glass.photo/uranio">
+        <img src="assets/images/glass_icon.png" alt="Glass">
+        <span>Glass</span>
     </a>
     </div>
 

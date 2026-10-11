@@ -2,16 +2,34 @@
 layout: default
 title: About
 ---
+  <div class="window">
+    <div class="title-bar">
+      <div class="title-bar-text">
+        About
+      </div>
+	  <div class="title-bar-controls">
+		<button aria-label="Any Text" class="help"></button>
+		<button aria-label="Any Text" class="close"></button>
+	  </div>
+    </div>
+	<div class="card">
+		<img src="assets/images/Immagine_about.jpg" alt="Roberto M. anni fa...">
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+		<div class="content">
+			<h2>Ciao...</h2>
+			<p>
+				Sono questo nella foto a sinistra (quello grande), mi chiamo Roberto M...censura... ho 46 anni, sono uno sviluppatore di soluzioni web in .net. 
+			</p>
+			<p>
+				Non ho molto da dire di me stesso, ho una moglie, 2 figli e un gatto.<br> Vivo nella provincia di Lodi anche se lavoro a Piacenza.
+			</p>
+			<p>
+				I miei hobby sono leggere soprattutto libri di fantascienza e manga di vario genere.
+			</p>
+			<p>
+				Un giorno saprò cosa scrivere in questa sezione.
+			</p>
+		</div>
+	</div>
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+  </div>

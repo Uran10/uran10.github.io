@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.card img {
+    object-fit: cover;
+    flex-shrink: 0; /* l'immagine NON si restringe */
+}
+
+.card content {
+    flex: 1;
+    min-width: 0; /* permette al testo di andare a capo */
+    overflow-wrap: break-word;
+}

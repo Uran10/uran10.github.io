@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{ page.title }}</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://unpkg.com/98.css" />
-<style>
     body {
         margin: 0;
         background: #008083; /* sfondo verde */
@@ -98,55 +91,4 @@
         flex-wrap: wrap;          /* vanno a capo se serve */
         gap: 10px;                /* spazio tra icone */
     }
-
-    .icon {
-        margin-bottom: 0;         /* niente margine verticale */
     }
-    }
-</style>
-</head>
-
-<body>
-<div class="winbar">
-    <img src="img/immaginebase.png" alt="Logo"><div style="font-size: 20px;">Roberto M.</div>
-</div>
-
-<div class="layout">
-
-    <div class="left">
-    <a class="icon" href="about.html">
-        <img src="assets/images/WINHE002.PNG" alt="About me">
-        <span>About me</span>
-    </a>
-
-    <a class="icon" href="index.html">
-        <img src="assets/images/CLIPB001.PNG" alt="Blog">
-        <span>Blog</span>
-    </a>
-
-    <a class="icon" data-url="apps.html">
-        <img src="assets/images/PROGM012.PNG" alt="Apps">
-        <span>Apps</span>
-    </a>
-    </div>
-
-    <div class="right">
-  <div class="window">
-    <div class="title-bar">
-      <div class="title-bar-text">
-        About
-      </div>
-  <div class="title-bar-controls">
-    <button aria-label="Any Text" class="help"></button>
-    <button aria-label="Any Text" class="close"></button>
-  </div>
-    </div>
-    <div class="window-body">
-  		{{ content }}
-    </div>
-  </div>
-    </div>
-
-</div>
-</body>
-</html>
