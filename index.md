@@ -13,7 +13,7 @@ title: Blog
   </div>
     </div>
     <div class="window-body">
-	  <img class="responsive-image" src="assets/images/blog_header.jpg" alt="War Games">
+	  <img class="responsive-image" src="/assets/images/blog_header.jpg" alt="War Games">
       <p>Lo pseudo-blog di uno pseudo-informatico.</p>
 	  
  {% for post in site.posts %}
