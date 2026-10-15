@@ -2,19 +2,8 @@
 layout: default
 title: About
 ---
-  <div class="window">
-    <div class="title-bar">
-      <div class="title-bar-text">
-        About
-      </div>
-	  <div class="title-bar-controls">
-		<button aria-label="Any Text" class="help"></button>
-		<button aria-label="Any Text" class="close"></button>
-	  </div>
-    </div>
-	<div class="card">
-		<img src="assets/images/Immagine_about.jpg" alt="Roberto M. anni fa...">
-
+<div class="card">
+		<img src="assets/images/Immagine_about.jpg" alt="Roberto M. anni fa..." />
 		<div class="content">
 			<h2>Ciao...</h2>
 			<p>
@@ -35,6 +24,4 @@ title: About
 				Reddit: <a href="https://www.reddit.com/user/uranio/">user/uranio/</a>
 			</p>
 		</div>
-	</div>
-
-  </div>
+</div>

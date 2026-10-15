@@ -31,6 +31,19 @@ github_username:  uran10
 theme: minima
 plugins:
   - jekyll-feed
+  
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default_post"
 
 include: [admin]
 # Exclude from processing.

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Blog
+---
+<img class="responsive-image" src="/assets/images/blog_header.jpg" alt="War Games" />
+<p>Lo pseudo-blog di uno pseudo-informatico.</p>
+	  
+{% for post in site.posts %}
+<hr />
+<p>{% include date_it.html date=post.date %}</p>
+<div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<a href="{{ post.url }}">{{ post.title }}</a>
+</div>
+<div class="field-border" style="padding: 8px; font-size: 16px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+{{ post.content }}
+</div>
+<div class="status-field-border" style="padding: 8px">
+Commenti?
+</div>
+<br />
+{% endfor %}
