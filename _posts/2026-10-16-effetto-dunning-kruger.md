@@ -10,4 +10,7 @@ MA probabilmente sono vittima dell'effetto dunning kruger
 
 <https://nuovoeutile.it/effetto-dunning-kruger/>
 
-Ma come vi sarete accorti non è cosi, sto avendo effetti random sui vari post che non avevo previsto, dovrò sbatterci la testa per un pò.
+Diciamo che sono nella parte molto bassa del grafico, sto avendo effetti random sui vari post che non avevo previsto, dovrò sbatterci la testa per un pò.\
+Il problema è che ci guardo da solo qualche giorno e ci sono ancora molte cose da fare.
+
+Penso di aver trovato però una soluzione per aggiungere i commenti e le statistiche appoggiandomi ad uno spazio su altervista, ne esistono anche soluzioni che sfruttano servizi github, ma por poterli usare gli utenti devono per forza loggarsi a github ed è una soluzione che non mi piace sinceramente.
