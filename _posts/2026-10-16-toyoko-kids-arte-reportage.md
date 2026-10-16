@@ -9,4 +9,5 @@ Vi segnalo questo documentario (anche per provare ad includere codice HTML)
 
 <https://youtu.be/mcfvai2uC_c?si=VBEVM7ZuNxsd32ED>
 
-Parla di un fenomeno non solo giapponese di "ragazzi perduti" ma che in Giappone raggiunge uno strano livello di "normalità".
+Parla di un fenomeno, non solo giapponese, di "ragazzi perduti" ma che in Giappone raggiunge uno strano livello di "normalità".  
+*Nelle notti di Tokyo è possibile imbattersi nei cosiddetti "Toyoko Kids", giovani emarginati, spesso drogati e rifiutati dalla società giapponese. Hanno trovato rifugio a Kabukichō, il quartiere più malfamato del Paese. Ufficialmente le autorità ne contano circa 300, ma in realtà sarebbero molti di più: migliaia di persone invisibili e ignorate da tutti.*
