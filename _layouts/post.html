@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Blog:{{ page.title }}</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://unpkg.com/98.css" />
-  <link rel="stylesheet" href="/assets/css/stile_base.css" />
-  <link rel="stylesheet" href="/assets/css/card.css" />
-</head>
-
-<body>
-<div class="winbar">
-    <img src="/img/immaginebase.png" alt="Logo"><div style="font-size: 20px;">Roberto M.</div>
-</div>
-
-<div class="layout">
-    <div class="left">
-    {% include icons_left.html %}
-    </div>
-    <div class="right">
-  <div class="window">
-      <div class="title-bar">
-		  <div class="title-bar-text">
-			Blog
-		  </div>
-		  <div class="title-bar-controls">
-			<button aria-label="Any Text" class="help"></button>
-			<button aria-label="Any Text" class="close"></button>
-		  </div>
-    </div>
-	<div class="window-body">
-<img class="responsive-image" src="/assets/images/blog_header.jpg" alt="War Games" />
-	  
+---
+layout: blog
+---	  
 <p>{% include date_it.html date=page.date %}</p>
 <div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
 <a href="{{ post.url }}">{{ page.title }}</a>
@@ -41,11 +11,17 @@
 <div class="status-field-border" style="padding: 8px">
 Commenti?
 </div>
-<br />
-	</div>
-  </div>
-    </div>
 
+<div class="post-navigation" style="text-align: center;">
+  {% if page.previous %}
+    <a class="prev-post" href="{{ page.previous.url | relative_url }}">
+      &laquo; Precedente: {{ page.previous.title }}
+    </a>
+  {% endif %}
+ - 
+  {% if page.next %}
+    <a class="next-post" href="{{ page.next.url | relative_url }}">
+      Prossimo: {{ page.next.title }} &raquo;
+    </a>
+  {% endif %}
 </div>
-</body>
-</html>

@@ -4,18 +4,26 @@ title: Guestbook
 ---
 <img class="responsive-image" src="/assets/images/guestbook_header.jpg" alt="Hackers" />
 <p>Fa tanto anno 90.</p>
+<p>I guestbook andavano di moda negli anni 90/2000 quando
+ le possibilità dei siti erano ancora limitate, era un modo per lasciare un messaggio
+ e interagire pubblicamente con il proprietario del sito.</p>
 <br/>
 
 <form action="https://uran10.altervista.org/guestbook.php" method="POST">
+<div class="form-group">
   <label for="name">Nome</label>
   <input type="text" name="name" id="name" placeholder="Il tuo nome" required>
-  <br/>
+</div>
+  
+ <div class="form-group">
   <label for="name">Email</label>
   <input type="email" name="email" id="email" placeholder="email"> <i>(opzionale, non verrà mostrato.)</i>
-  <br/><br/>
+</div>
+ <div class="form-group">
   <label for="message">Messaggio</label>
   <textarea name="message" id="message" rows="5" style="width:100%" placeholder="Scrivi qualcosa..." required></textarea>
-
+</div>
+  
   <div style="display:none">
     <label for="website">Website</label>
     <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
