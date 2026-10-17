@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ page.title }}</title>
+  <title>Blog:{{ page.title }}</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
   <link rel="stylesheet" href="/assets/css/stile_base.css" />
@@ -14,34 +14,14 @@
 </div>
 
 <div class="layout">
-
     <div class="left">
-    <a class="icon" href="/about.html">
-        <img src="/assets/images/WINHE002.PNG" alt="About me">
-        <span>About me</span>
-    </a>
-
-    <a class="icon" href="/index.html">
-        <img src="/assets/images/CLIPB001.PNG" alt="Blog">
-        <span>Blog</span>
-    </a>
-
-    <a class="icon" href="/apps.html">
-        <img src="/assets/images/PROGM012.PNG" alt="Apps">
-        <span>Apps</span>
-    </a>
-	
-	<a class="icon" href="https://glass.photo/uranio">
-        <img src="/assets/images/glass_icon.png" alt="Glass">
-        <span>Glass</span>
-    </a>
+    {% include icons_left.html %}
     </div>
-
     <div class="right">
   <div class="window">
       <div class="title-bar">
 		  <div class="title-bar-text">
-			{{ page.title }}
+			Blog
 		  </div>
 		  <div class="title-bar-controls">
 			<button aria-label="Any Text" class="help"></button>
@@ -50,14 +30,13 @@
     </div>
 	<div class="window-body">
 <img class="responsive-image" src="/assets/images/blog_header.jpg" alt="War Games" />
-<p>Lo pseudo-blog di uno pseudo-informatico.</p>
 	  
-<p>{% include date_it.html date=post.date %}</p>
+<p>{% include date_it.html date=page.date %}</p>
 <div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ post.url }}">{{ page.title }}</a>
 </div>
 <div class="field-border" style="padding: 8px; font-size: 16px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
-{{ post.content }}
+{{ page.content }}
 </div>
 <div class="status-field-border" style="padding: 8px">
 Commenti?
