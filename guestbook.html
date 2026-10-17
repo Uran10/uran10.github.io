@@ -1,0 +1,62 @@
+<form action="https://uran10.altervista.org/guestbook.php" method="POST">
+  <label for="name">Nome</label>
+  <input type="text" name="name" id="name" placeholder="Il tuo nome" required>
+
+  <label for="message">Messaggio</label>
+  <textarea name="message" id="message" rows="5" placeholder="Scrivi qualcosa..." required></textarea>
+
+  <!-- Honeypot: nascondi questo campo -->
+  <div style="display:none">
+    <label for="website">Website</label>
+    <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+  </div>
+
+  <button type="submit">Invia</button>
+</form>
+
+{% if site.url contains "tuo-sito" %}
+  <!-- messaggio di conferma dopo redirect -->
+{% endif %}
+
+<script>
+  // mostra conferma se ?success=1
+  if (window.location.search.includes('success=1')) {
+    const p = document.createElement('p');
+    p.textContent = 'Grazie! Il tuo messaggio è stato inviato.';
+    p.style.color = 'green';
+    document.querySelector('form').after(p);
+  }
+</script>
+
+<h2>Messaggi</h2>
+<div id="guestbook-messages">Caricamento...</div>
+
+<script>
+  fetch('https://uran10.altervista.org/guestbook.php')
+    .then(res => res.json())
+    .then(messages => {
+      const container = document.getElementById('guestbook-messages');
+      container.innerHTML = '';
+
+      if (messages.length === 0) {
+        container.innerHTML = '<p>Nessun messaggio ancora. Scrivi tu il primo!</p>';
+        return;
+      }
+
+      // Mostra dal più recente al più vecchio (se vuoi invertire inverti il loop)
+      for (let i = messages.length - 1; i >= 0; i--) {
+        const m = messages[i];
+        const el = document.createElement('div');
+        el.classList.add('guestbook-entry');
+        el.innerHTML = `
+          <strong>${m.name}</strong> <small>${m.date}</small>
+          <p>${m.message}</p>
+          <hr>
+        `;
+        container.appendChild(el);
+      }
+    })
+    .catch(() => {
+      document.getElementById('guestbook-messages').innerHTML = '<p>Impossibile caricare i messaggi.</p>';
+    });
+</script>
