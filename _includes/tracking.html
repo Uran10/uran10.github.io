@@ -1,38 +1,16 @@
 <script>
 (function() {
-  const TRACK_URL = 'https://uran10.altervista.org/track.php'; // URL server B
+  const TRACK_URL = 'https://uran10.altervista.org/track.php';
 
-  const data = {
+  const params = new URLSearchParams({
     page_url: window.location.href,
     referrer: document.referrer || '',
-    user_agent: navigator.userAgent,
-    language: navigator.language || navigator.languages?.[0] || '',
-    screen_width: window.screen.width,
-    screen_height: window.screen.height,
-    country: '' // opzionale: puoi usare API GeoIP lato client se vuoi
-  };
+    screen_w: screen.width,
+    screen_h: screen.height,
+    lang: navigator.language || ''
+  });
 
-  // Prova sendBeacon (più efficiente, non blocca navigazione)
-  const payload = JSON.stringify(data);
-  if (navigator.sendBeacon) {
-    const blob = new Blob([payload], { type: 'application/json' });
-    navigator.sendBeacon(TRACK_URL, blob);
-  } else {
-    // Fallback: fetch POST
-    fetch(TRACK_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: payload,
-      mode: 'cors',
-      keepalive: true
-    }).catch(() => {});
-  }
-
-  // Fallback opzionale: pixel GET (meno dati ma molto robusto)
-  // da usare solo se vuoi essere ultra-compatibile
-  /*
   const img = new Image();
-  img.src = TRACK_URL + '?page_url=' + encodeURIComponent(data.page_url) + '&referrer=' + encodeURIComponent(data.referrer);
-  */
+  img.src = TRACK_URL + '?' + params.toString();
 })();
 </script>
