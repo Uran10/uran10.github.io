@@ -5,11 +5,10 @@ title: Guestbook
 <form action="https://uran10.altervista.org/guestbook.php" method="POST">
   <label for="name">Nome</label>
   <input type="text" name="name" id="name" placeholder="Il tuo nome" required>
-
+  <br/>
   <label for="message">Messaggio</label>
-  <textarea name="message" id="message" rows="5" placeholder="Scrivi qualcosa..." required></textarea>
+  <textarea name="message" id="message" rows="5" style="width:100%" placeholder="Scrivi qualcosa..." required></textarea>
 
-  <!-- Honeypot: nascondi questo campo -->
   <div style="display:none">
     <label for="website">Website</label>
     <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
