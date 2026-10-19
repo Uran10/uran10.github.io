@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tech fighter tubo
+title: Tech fighter turbo
 date: 2026-10-18T22:22:00.000+02:00
 image: ""
 ---
