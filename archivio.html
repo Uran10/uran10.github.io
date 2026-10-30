@@ -1,0 +1,28 @@
+---
+layout: blog
+title: Blog
+---
+{% assign mesi = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
+<hr/>
+<h1>Archivio blog</h1>
+
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
+
+{% for month in posts_by_month %}
+  {% assign first_post = month.items | first %}
+  {% assign mese_num = first_post.date | date: "%m" | minus: 1 %}
+  {% assign mese_nome = mesi[mese_num] %}
+
+  <h2>{{ mese_nome }} {{ first_post.date | date: "%Y" }}</h2>
+
+  <ul>
+    {% for post in month.items %}
+      <li>
+        <time>{{ post.date | date: "%d/%m/%Y" }}</time>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

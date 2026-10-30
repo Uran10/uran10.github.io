@@ -2,8 +2,10 @@
 layout: blog
 title: Blog
 ---
-{% for post in site.posts %}
+{% for post in site.posts limit:15 %}
 <hr />
 {% include post_singolo.html %}
 <br />
 {% endfor %}
+
+<h2><a href="/archivio.html">Archivio</a></h2>
