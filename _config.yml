@@ -65,3 +65,4 @@ include: [admin]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude: [php]
