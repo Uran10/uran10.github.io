@@ -89,3 +89,9 @@ title: About
 		</div>
 </div>
 <hr>
+<div class="content" style="padding: 8px; font-size: 14px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<h3>Privacy</h3>
+<p>Il sito ha un pixel traker, per tracciare le visite, L'ip è <i>grossolanamente criptato</i>, nel senso che lo salvo con l'ultima parte azzerata, riesco a capire da dove arrivate ma non l'indirizzo IP preciso.<br>
+Nel caso siate curiosi, potete leggere il codice direttamente dal repository del sito,<br>cartella 
+<a href="https://github.com/Uran10/uran10.github.io/tree/main/php">/php</a></p>
+</div>
