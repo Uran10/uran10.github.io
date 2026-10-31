@@ -8,6 +8,8 @@ backend:
 media_folder: "assets/images/posts" # Cartella nel repo dove salvare le immagini caricate dal CMS
 public_folder: "/assets/images/posts" # Percorso usato da Jekyll per mostrare l'immagine nel browser
 
+locale: 'it'
+
 # Definizione dei Contenuti (Collections)
 collections:
   - name: "blog"
@@ -19,6 +21,6 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Titolo", name: "title", widget: "string" }
       - { label: "Data di Pubblicazione", name: "date", widget: "datetime" }
-      - { label: "Immagine di Copertina", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
       - { label: "Descrizione/Incipit", name: "description", widget: "string", required: false }
       - { label: "Testo del Post", name: "body", widget: "markdown" }
