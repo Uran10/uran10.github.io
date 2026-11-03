@@ -3,15 +3,14 @@
 <head>
   <title>{{ page.title }}</title>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://unpkg.com/98.css" />
-  <link rel="stylesheet" href="/assets/css/stile_base.css" />
-  <link rel="stylesheet" href="/assets/css/card.css" />
-  <link rel="stylesheet" href="/assets/css/form-group.css" />
+  <link rel="stylesheet" href="{{ "/assets/css/stile_base.css" | relative_url }}" />
 </head>
 
 <body id="top">
 <div class="winbar">
-    <img src="/img/immaginebase.png" alt="Logo"><div style="font-size: 20px;">Roberto M.</div>
+    <img src="/img/immaginebase.png" alt="Logo"><div class="site-name">Roberto M.</div>
 </div>
 <div class="layout">
     <div class="left">
@@ -31,8 +30,8 @@
 		<div class="window-body">
 			{{ content }}
 		</div>
-		<div class="status-field-border" style="padding: 8px">
-			<div style="text-align: right;"><a href="#top">Up &#9650;</a></div>
+		<div class="status-field-border panel-status">
+			<div class="back-to-top"><a href="#top">Up &#9650;</a></div>
 		</div>
 	  </div>
   </div>

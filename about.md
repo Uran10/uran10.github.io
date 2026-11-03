@@ -4,7 +4,7 @@ title: About
 ---
 <div class="card">
 		<img src="assets/images/Immagine_about.jpg" alt="Roberto M. anni fa..." />
-		<div class="content" style="padding: 8px; font-size: 14px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+		<div class="content">
 			<h2>Ciao...</h2>
 			<p>
 				<b>Sono</b> questo nella foto a sinistra (quello grande), mi chiamo Roberto M...censura... 
@@ -89,7 +89,7 @@ title: About
 		</div>
 </div>
 <hr>
-<div class="content" style="padding: 8px; font-size: 14px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<div class="content">
 <h3>Privacy</h3>
 <p>Il sito ha un pixel traker, per tracciare le visite, L'ip è <i>grossolanamente criptato</i>, nel senso che lo salvo con l'ultima parte azzerata, riesco a capire da dove arrivate ma non l'indirizzo IP preciso.<br>
 Nel caso siate curiosi, potete leggere il codice direttamente dal repository del sito,<br>cartella 

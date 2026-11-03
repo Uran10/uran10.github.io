@@ -1,94 +1,191 @@
-    body {
-        margin: 0;
-        background: #008083; /* sfondo verde */
-    }
+/* Struttura e tema desktop Windows. Il tema dei controlli viene da 98.css. */
+body {
+  margin: 0;
+  background: #008083;
+}
 
-    /* Barra stile Windows 3.11 */
-    .winbar {
-        height: 40px;
-        width: 100%;
-        background: #c0c0c0; /* grigio classico Win 3.x */
-        
-        /* Effetto 3D con bordi */
-        border-top: 2px solid #ffffff;   /* chiaro */
-        border-left: 2px solid #ffffff;  /* chiaro */
-        border-bottom: 2px solid #808080; /* scuro */
-        border-right: 2px solid #808080;  /* scuro */
+.winbar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding-left: 2px;
+  background: #c0c0c0;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+}
 
-        display: flex;
-        align-items: center;
-        padding-left: 2px;
-        box-sizing: border-box;
-    }
+.winbar img {
+  width: 60px;
+  height: 30px;
+  object-fit: cover;
+}
 
-    .winbar img {
-        height: 30px;
-        width: 60px;
-        object-fit: cover;
-    }
+.site-name {
+  font-size: 20px;
+}
 
-    /* Contenitore principale */
-    .layout {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+.layout {
+  display: flex;
+  align-items: flex-start;
+}
 
-    /* Colonna sinistra */
-    .left {
-		width: 200px;
-		padding: 10px;
-		box-sizing: border-box;
-    }
+.left,
+.right {
+  box-sizing: border-box;
+  padding: 10px;
+}
 
-    /* Icone Win98 */
-    .icon {
-       	width: 80px;
-    	text-align: center;
-    	cursor: pointer;
-    	color: white;
-    	font-family: sans-serif;
-		margin-bottom: 20px; /* spazio verticale */
-		display: block;
-    }
+.left {
+  width: 200px;
+}
 
-    .icon img {
-    	width: 64px;
-    	height: 64px;
-    	display: block;
-    	margin: 0 auto;
-    }
-	
-	.responsive-image {
-		width: 100%;
-		height: auto;
-		display: block;
-	}
+.right {
+  width: 800px;
+  min-width: 0;
+  margin-left: 10px;
+}
 
-    /* Colonna destra */
-    .right {
-        width: 800px;
-        padding: 10px;
-        box-sizing: border-box;
-        margin-left: 10px;
-    }
+.icon {
+  display: block;
+  width: 80px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
 
-    /* Responsive: quando lo schermo è troppo piccolo */
-    @media (max-width: 1000px) {
-        .layout {
-            flex-direction: column; /* la colonna sinistra va sopra */
-        }
+.icon img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+}
 
-        .right {
-            width: 100%; /* si adatta */
-            margin-left: 0;
-            margin-top: 10px;
-        }
- /* NUOVO: icone in orizzontale */
-    .left {
-        width: 100%;              /* si espande */
-        display: flex;            /* le icone vanno in riga */
-        flex-wrap: wrap;          /* vanno a capo se serve */
-        gap: 10px;                /* spazio tra icone */
-    }
-    }
+.responsive-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Tipografia condivisa tra pagine e articoli. */
+.content,
+.post-title,
+.post-content {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  overflow-wrap: break-word;
+}
+
+.content,
+.post-content,
+.panel-status {
+  padding: 8px;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.post-title {
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.post-content {
+  min-width: 0;
+  font-size: 16px;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.post-navigation {
+  text-align: center;
+}
+
+.back-to-top {
+  text-align: right;
+}
+
+/* Pagina About. */
+.card {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.card > img {
+  flex-shrink: 0;
+  align-self: flex-start;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card > .content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Guestbook: selettori circoscritti per rispettare i controlli di 98.css. */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input,
+.form-group textarea {
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.form-group textarea {
+  width: 100%;
+}
+
+/* Navigazione sopra il contenuto su tablet e telefoni. */
+@media (max-width: 1000px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+  }
+}

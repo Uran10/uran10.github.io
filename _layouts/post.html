@@ -2,17 +2,17 @@
 layout: blog
 ---	  
 <p>{% include date_it.html date=page.date %}</p>
-<div style="margin-bottom: 4px;font-size: 20px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<div class="post-title">
 <a href="{{ post.url }}">{{ page.title }}</a>
 </div>
-<div class="field-border" style="padding: 8px; font-size: 16px;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;">
+<div class="field-border post-content">
 {{ page.content }}
 </div>
-<div class="status-field-border" style="padding: 8px">
+<div class="status-field-border panel-status">
 Commenti?
 </div>
 
-<div class="post-navigation" style="text-align: center;">
+<div class="post-navigation">
   {% if page.previous %}
     <a class="prev-post" href="{{ page.previous.url | relative_url }}">
       &laquo; Precedente: {{ page.previous.title }}
