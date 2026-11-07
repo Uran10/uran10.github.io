@@ -4,7 +4,7 @@ title: Blog
 ---
 {% assign mesi = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
 <hr/>
-<h1>Archivio blog</h1>
+<h2>Archivio blog</h2>
 <div class="content">
 {% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
 
