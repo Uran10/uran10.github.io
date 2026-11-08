@@ -70,6 +70,22 @@ body {
   height: auto;
 }
 
+.app-launcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid;
+  border-color: #808080 #fff #fff #808080;
+  box-shadow: inset 1px 1px #404040, inset -1px -1px #dfdfdf;
+}
+
+.app-launcher .icon {
+  margin-bottom: 0;
+  color: #222;
+}
+
 /* Tipografia condivisa tra pagine e articoli. */
 .content,
 .post-title,
