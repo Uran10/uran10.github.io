@@ -11,7 +11,9 @@ layout: blog
 <div class="status-field-border panel-status">
 Commenti?
 </div>
-
+<!--Commenti-->
+{% include comments.html %}
+<!--Fine Commenti-->
 <div class="post-navigation">
   {% if page.previous %}
     <a class="prev-post" href="{{ page.previous.url | relative_url }}">

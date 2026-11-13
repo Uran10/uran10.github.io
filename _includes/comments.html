@@ -1,0 +1,20 @@
+<section id="blog-comments" data-api="{{ site.comments_api | escape }}">
+  <h2>Commenti</h2>
+  <p class="comments-status" role="status" aria-live="polite"></p>
+  <div class="comments-list"></div>
+  <form>
+    <div class="form-group">
+      <label for="name">Nome</label>
+      <input type="text" name="author" id="name" maxlength="80" placeholder="Il tuo nome" required>
+    </div>
+      
+    <div class="form-group">
+      <label for="message">Commento</label>
+      <textarea name="body" id="message" minlength="3" rows="5" placeholder="Scrivi qualcosa..." required></textarea>
+    </div>
+    <div hidden aria-hidden="true"><label>Sito web <input name="website" tabindex="-1" autocomplete="off"></label></div>
+      <button type="submit">Invia</button>
+      <p>I commenti sono pubblici e possono essere sottoposti a moderazione. Non inserire dati sensibili.</p>
+  </form>
+</section>
+<script src="{{ '/assets/comments.js' | relative_url }}" defer></script>

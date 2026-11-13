@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: uran10
 github_username:  uran10
+comments_api: "https://uran10.altervista.org/SistemaCommenti/public/comments.php"
 
 # Build settings
 theme: minima
