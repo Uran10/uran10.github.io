@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /guestbook.html
+Disallow: /admin/
+Sitemap: https://uran10.github.io/sitemap.xml
