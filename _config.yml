@@ -47,6 +47,15 @@ defaults:
     values:
       layout: "post"
 
+  - scope:
+      path: "googleed15a52191e29b46.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "admin/test.html"
+    values:
+      sitemap: false
+
 include: [admin]
 # Exclude from processing.
 # The following items will not be processed, by default.
