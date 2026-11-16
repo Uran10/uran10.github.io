@@ -13,7 +13,7 @@ title: Blog
   {% assign mese_num = first_post.date | date: "%m" | minus: 1 %}
   {% assign mese_nome = mesi[mese_num] %}
 
-  <h2>{{ mese_nome }} {{ first_post.date | date: "%Y" }}</h2>
+  <h2><a href="{{ '/archivio2.html' | relative_url }}?mese={{ month.name }}">{{ mese_nome }} {{ first_post.date | date: "%Y" }}</a></h2>
 
   <ul>
     {% for post in month.items %}

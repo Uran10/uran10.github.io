@@ -1,0 +1,75 @@
+---
+layout: blog
+title: Archivio mensile
+---
+{% assign mesi = "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre" | split: "," %}
+{% assign posts_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
+
+<hr />
+<h2 id="archive-title">Archivio mensile</h2>
+<form method="get" action="{{ '/archivio2.html' | relative_url }}">
+  <label for="archive-month">Mese e anno:</label>
+  <select id="archive-month" name="mese">
+    {% for month in posts_by_month %}
+      {% assign first_post = month.items | first %}
+      {% assign mese_num = first_post.date | date: "%m" | minus: 1 %}
+      <option value="{{ month.name }}">{{ mesi[mese_num] }} {{ first_post.date | date: "%Y" }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Visualizza</button>
+</form>
+<p><a href="{{ '/archivio.html' | relative_url }}">Torna all'archivio</a></p>
+<p id="archive-message" role="status"></p>
+<div id="archive-posts"></div>
+<noscript><p>Attiva JavaScript per visualizzare i post per mese.</p></noscript>
+
+{% for month in posts_by_month %}
+  <template data-month="{{ month.name }}">
+    {% for post in month.items %}
+      <hr />
+      {% include post_singolo.html %}
+      <br />
+    {% endfor %}
+  </template>
+{% endfor %}
+
+<script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const select = document.getElementById('archive-month');
+    const title = document.getElementById('archive-title');
+    const message = document.getElementById('archive-message');
+    const posts = document.getElementById('archive-posts');
+    let month = params.get('mese');
+
+    // Accetta anche ?mese=8&anno=2026.
+    if (params.has('anno') && month && /^\d{1,2}$/.test(month)) {
+      month = params.get('anno') + '-' + month.padStart(2, '0');
+    }
+    if (month === null) month = select.value;
+
+    if (!month) {
+      message.textContent = 'Nessun post disponibile.';
+      return;
+    }
+    if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(month)) {
+      message.textContent = 'Mese non valido. Usa il formato AAAA-MM, per esempio ?mese=2026-08.';
+      select.selectedIndex = -1;
+      return;
+    }
+
+    const date = new Date(Number(month.slice(0, 4)), Number(month.slice(5)) - 1, 1);
+    const label = new Intl.DateTimeFormat('it-IT', { month: 'long', year: 'numeric' }).format(date);
+    title.textContent = 'Archivio: ' + label;
+    document.title = 'Archivio: ' + label;
+    select.value = month;
+
+    const template = Array.from(document.querySelectorAll('template[data-month]'))
+      .find(function (item) { return item.dataset.month === month; });
+    if (template) {
+      posts.replaceChildren(template.content.cloneNode(true));
+    } else {
+      message.textContent = 'Nessun post pubblicato in questo mese.';
+    }
+  }());
+</script>
