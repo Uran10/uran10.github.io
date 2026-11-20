@@ -1,0 +1,36 @@
+---
+layout: default
+title: Link
+---
+<img class="responsive-image" src="/assets/images/link_header.jpg" alt="Too many secrets" />
+<p>Un pò di link che consiglio/visito/leggo.<br>
+Cercherò di ampliarlo e tenerlo aggiornato.</p>
+<hr/>
+<div class="content">
+  {% assign categorie = site.data.links | group_by: "categoria" %}
+  {% for gruppo in categorie %}
+  <h4>{{ gruppo.name | default: "Vari" | escape }}</h4>
+  <ul>
+    {% for link in gruppo.items %}
+    <li>
+      <a href="{{ link.url | escape }}">{{ link.titolo | escape }}</a>
+      {% if link.descrizione and link.descrizione != empty %}
+      <span>– {{ link.descrizione | escape }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p>Non ci sono ancora link.</p>
+  {% endfor %}
+  <hr>
+  <!--itawebring-->
+  <div style="display: flex; flex-direction: column; gap: 1px; width: 96px; margin: 1em auto;">
+  <a href="https://itawebring.altervista.org/" target="_blank"><img src="https://itawebring.altervista.org/buttons/ITA_1.png" style="image-rendering: pixelated"></a>
+  <span style="display: flex;">
+    <a href="https://itawebring.altervista.org/anello?d=prev&url=https://uran10.github.io/" target="_blank"><img src="https://itawebring.altervista.org/buttons/left.png" style="image-rendering: pixelated"></a>
+    <a href="https://itawebring.altervista.org/anello?d=rand" target="_blank"><img src="https://itawebring.altervista.org/buttons/random.png" style="image-rendering: pixelated"></a>
+    <a href="https://itawebring.altervista.org/anello?d=next&url=https://uran10.github.io/" target="_blank"><img src="https://itawebring.altervista.org/buttons/right.png" style="image-rendering: pixelated"></a>
+  </span>
+ </div>
+</div>

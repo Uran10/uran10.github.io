@@ -1,0 +1,62 @@
+[
+  {
+    "titolo": "Hacker news",
+    "url": "https://news.ycombinator.com/",
+    "descrizione": "News del mondo dell'informatica",
+    "categoria": "Informatica"
+  },
+  {
+    "titolo": "Lobsters",
+    "url": "https://lobste.rs/",
+    "descrizione": "Simile ad hacker news",
+    "categoria": "Informatica"
+  },
+  {
+    "titolo": "Rekall",
+    "url": "https://rekall.me/",
+    "descrizione": "Immagini cyberpunk",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "SensibleenDowment",
+    "url": "http://www.sensibleendowment.com/",
+    "descrizione": "Difficle da definire",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Soranews24",
+    "url": "https://soranews24.com/",
+    "descrizione": "Notizie dal giappone",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Instructables",
+    "url": "  https://www.instructables.com/",
+    "descrizione": "Sito per makers",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Github",
+    "url": "https://github.com/",
+    "descrizione": "Casa dolce casa",
+    "categoria": "Sviluppo"
+  },
+  {
+    "titolo": "Altervista",
+    "url": "https://it.altervista.org/",
+    "descrizione": "Casa dolce casa",
+    "categoria": "Sviluppo"
+  },
+  {
+    "titolo": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/",
+    "descrizione": "Documentazione per lo sviluppo web",
+    "categoria": "Sviluppo"
+  },
+  {
+    "titolo": "Glass.photo",
+    "url": "https://glass.photo/uranio",
+    "descrizione": "Sito per hosting fotografie",
+    "categoria": "Fotografia"
+  }
+]
