@@ -58,5 +58,38 @@
     "url": "https://glass.photo/uranio",
     "descrizione": "Sito per hosting fotografie",
     "categoria": "Fotografia"
+  },
+  {
+    "titolo": "Supermoderno TV",
+    "url": "https://www.youtube.com/@supermodernotv",
+    "descrizione": "Canale di Supermoderno, nuovo progetto di Massimo Banzi (Quello di arduino)",
+    "categoria": "Youtube"
+  },
+  {
+    "titolo": "Chimicazza",
+    "url": "https://www.youtube.com/@chimicazza",
+    "descrizione": "Canale sulla chimica.",
+    "categoria": "Youtube"
+  }
+  ,
+  {
+    "titolo": "ElectroBOOM",
+    "url": "https://www.youtube.com/@ElectroBOOM",
+    "descrizione": "Non giocate con l'elettricità.",
+    "categoria": "Youtube"
+  }
+  ,
+  {
+    "titolo": "NikiProshin",
+    "url": "https://www.youtube.com/@NikiProshin",
+    "descrizione": "Lo seguivo dopo lo scoppio della guerra tra Russa e Ucraina.",
+    "categoria": "Youtube"
+  }
+  ,
+  {
+    "titolo": "Scott Haselman",
+    "url": "https://www.youtube.com/@shanselman",
+    "descrizione": "Il canale di uno dei principale spicker per microsoft.",
+    "categoria": "Youtube"
   }
 ]
