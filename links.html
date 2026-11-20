@@ -13,7 +13,7 @@ Cercherò di ampliarlo e tenerlo aggiornato.</p>
   <ul>
     {% for link in gruppo.items %}
     <li>
-      <a href="{{ link.url | escape }}">{{ link.titolo | escape }}</a>
+      <a href="{{ link.url | escape }}" target="_blank" rel="noopener">{{ link.titolo | escape }}</a>
       {% if link.descrizione and link.descrizione != empty %}
       <span>– {{ link.descrizione | escape }}</span>
       {% endif %}
