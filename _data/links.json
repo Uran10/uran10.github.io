@@ -54,6 +54,12 @@
     "categoria": "Sviluppo"
   },
   {
+    "titolo": "microsoft Learn",
+    "url": "https://learn.microsoft.com/it-it/",
+    "descrizione": "Risorse Microsoft",
+    "categoria": "Sviluppo"
+  },
+  {
     "titolo": "Glass.photo",
     "url": "https://glass.photo/uranio",
     "descrizione": "Sito per hosting fotografie",
