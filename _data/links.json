@@ -31,8 +31,38 @@
   },
   {
     "titolo": "Instructables",
-    "url": "  https://www.instructables.com/",
+    "url": "https://www.instructables.com/",
     "descrizione": "Sito per makers",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "fantascienza.com",
+    "url": "https://www.fantascienza.com/",
+    "descrizione": "Sito sulla fantascienza",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Boing Boing",
+    "url": "https://boingboing.net/",
+    "descrizione": "Blog/zine su internet e dintorni",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Hackaday",
+    "url": "https://hackaday.com/",
+    "descrizione": "Hack inteso come modifica",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Make Magazine",
+    "url": "https://makezine.com/",
+    "descrizione": "Sito di make magazine",
+    "categoria": "Vari"
+  },
+  {
+    "titolo": "Schneier on Security",
+    "url": "https://www.schneier.com/",
+    "descrizione": "Il blog di Bruce Schneier, un famoso crittografo.",
     "categoria": "Vari"
   },
   {
