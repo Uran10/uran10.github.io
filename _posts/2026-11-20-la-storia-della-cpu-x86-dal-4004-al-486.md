@@ -2,6 +2,7 @@
 layout: post
 title: "La storia della CPU x86: dal 4004 al 486"
 date: 2026-11-20T18:09:00.000+01:00
+categories: blog
 tags: CPU computer storia
 ---
 [The History Behind the x86 CPU: From 4004 to 486](https://pikuma.com/blog/history-of-x86-4004-to-486)  

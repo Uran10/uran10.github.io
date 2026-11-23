@@ -2,6 +2,7 @@
 layout: post
 title: TRON Project
 date: 2026-10-14T14:31:00.000+02:00
+categories: blog
 ---
 Oggi stavo leggendo Reddit e casualmente sono capitato su un post *che non trovo più* in cui ci si domandava come mai il giappone avendo questa grande esperienza nel sviluppare videogiochi di alto livello non ha mia sfondato con programmi commerciali o sistemi operativi lasciando campo libero agli USA.
 

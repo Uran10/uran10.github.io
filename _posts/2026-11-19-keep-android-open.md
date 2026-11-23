@@ -2,6 +2,7 @@
 layout: post
 title: Keep android Open
 date: 2026-11-19T19:02:00.000+01:00
+categories: blog
 ---
 <https://keepandroidopen.org/it/>
 

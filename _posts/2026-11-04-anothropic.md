@@ -2,6 +2,7 @@
 layout: post
 title: Anothropic
 date: 2026-11-04T23:24:00.000+01:00
+categories: blog
 tags: AI logo design
 ---
 L'altro giorno stavo guardando il logo di Cloude e mi sono detto: "che cos'è? sempre un buco di c#lo!".  

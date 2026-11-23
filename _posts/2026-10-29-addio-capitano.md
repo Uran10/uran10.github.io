@@ -2,6 +2,7 @@
 layout: post
 title: Addio capitano
 date: 2026-10-29T23:03:00.000+01:00
+categories: blog
 ---
 ![](/assets/images/posts/patrick_stewart.jpg "Patrick Stewart")
 

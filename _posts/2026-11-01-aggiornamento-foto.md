@@ -2,6 +2,7 @@
 layout: post
 title: Aggiornamento foto
 date: 2026-11-01T15:00:00.000+01:00
+categories: blog
 tags: Fotografia Glass
 ---
 Ho pubblicato un pò di vecchie foto su glass.  

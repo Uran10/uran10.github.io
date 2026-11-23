@@ -2,6 +2,7 @@
 layout: post
 title: Getti di inchiostro
 date: 2026-10-28T10:21:00.000+01:00
+categories: blog
 ---
 Wow, la tecnologia è magica, ecco una visione di quello che succede quando stampiamo con una stampante a getto d'inchiostro.  
 <https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/>  

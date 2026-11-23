@@ -2,6 +2,7 @@
 layout: post
 title: Furto Binance
 date: 2026-11-05T11:26:00.000+01:00
+categories: blog
 tags: Furto notizie Binance hackers
 ---
 Tempo fa (agosto) avevo fatto un post su uno strano caso documentato da un utente in cui alcuni hacker avevano cercato di infettarlo sfruttando un colloquio come cavallo di troia.  

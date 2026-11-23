@@ -2,6 +2,7 @@
 layout: post
 title: Golden week
 date: 2026-11-08T17:42:00.000+01:00
+categories: blog
 tags: goldenweek apps AI
 ---
 E niente, il giochino dell'intelligenza artificiale è deleteria nelle mie mani.  

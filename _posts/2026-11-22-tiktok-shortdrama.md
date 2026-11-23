@@ -2,6 +2,7 @@
 layout: post
 title: Tiktok ShortDrama
 date: 2026-11-22T18:48:00.000+01:00
+categories: blog
 tags: tiktok
 ---
 Confesso che a volte la sera per rilassarmi scrollo un pò di Tiktok a caso dal cellulare.\

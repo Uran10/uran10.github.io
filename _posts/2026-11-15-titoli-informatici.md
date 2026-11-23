@@ -2,6 +2,7 @@
 layout: post
 title: Titoli informatici
 date: 2026-11-15T13:50:00.000+01:00
+categories: blog
 tags: titoli lavoro informatica
 ---
 <https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/>

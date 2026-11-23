@@ -2,6 +2,7 @@
 layout: post
 title: Smart working
 date: 2026-11-18T09:58:00.000+01:00
+categories: blog
 tags: Smartworking lavoro
 ---
 Merda, che palle.  
