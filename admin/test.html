@@ -7,11 +7,37 @@ layout: none
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
-    
-    </script>
   </head>
   <body>
     <!-- Include lo script principale di Decap CMS -->
     <script src="https://cdn.jsdelivr.net/npm/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      const emojiGroups = {
+        Faccine: ['😀', '😂', '😊', '😍', '🤔', '😢'],
+        Gesti: ['👍', '👏', '🙌', '🙏', '👋'],
+        Simboli: ['❤️', '✨', '🎉', '🔥', '✅', '💡'],
+      };
+
+      const emojiOptions = Object.entries(emojiGroups).flatMap(([group, emojis]) =>
+        emojis.map(emoji => ({ label: `${emoji} · ${group}`, value: emoji }))
+      );
+      const emojiPattern = emojiOptions.map(option => option.value).join('|');
+
+      CMS.registerEditorComponent({
+        id: 'emoji',
+        label: 'Emoji',
+        fields: [{
+          name: 'emoji',
+          label: 'Scegli un’emoji',
+          widget: 'select',
+          options: emojiOptions,
+          default: emojiOptions[0].value,
+        }],
+        pattern: new RegExp(`^(${emojiPattern})$`, 'u'),
+        fromBlock: match => ({ emoji: match[1] }),
+        toBlock: ({ emoji }) => emoji,
+        toPreview: ({ emoji }) => emoji,
+      });
+    </script>
   </body>
 </html>
