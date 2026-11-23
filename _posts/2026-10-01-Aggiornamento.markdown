@@ -2,6 +2,7 @@
 title:  "Aggiornamento"
 date:   2026-10-01 23:46
 categories: blog
+tags: blog
 ---
 Qualche aggiornamento nel blog.  
 Sono definitivamente passato a github, per ora ho solo creato il sito in jekyll e tutto è standard.  

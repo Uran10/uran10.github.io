@@ -2,6 +2,7 @@
 title:  "Blog sviluppatori microsoft"
 date:   2026-08-20 15:01
 categories: blog
+tags: microsoft
 ---
 Non avevo mai navigato seriamente tra i blog degli sviluppatori microsoft, ma oggi per caso attraverso un altro sito sono arrivato a questa pagina:
 <https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803>

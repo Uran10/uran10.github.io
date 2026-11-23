@@ -3,6 +3,7 @@ layout: post
 title: Amazon Luna
 date: 2026-10-27T14:53:00.000+01:00
 categories: blog
+tags: luna amazon videogames
 ---
 Riprendo la descrizione di Amazon:\
 **Amazon Luna** è un servizio di gaming che ti permette di giocare dal cloud utilizzando dispositivi già di tua proprietà e di richiedere giochi per PC scaricabili.

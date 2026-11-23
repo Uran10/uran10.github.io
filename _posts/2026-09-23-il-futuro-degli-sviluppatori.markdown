@@ -2,6 +2,7 @@
 title:  "Il futuro degli sviluppatori"
 date:   2026-09-23 14:36
 categories: blog
+tags: AI lavoro
 ---
 Siamo nel 2026 e stiamo distruggendo il lavoro dello sviluppatore, o meglio l'IA lo sta distruggendo.  
 Anche nella mia azienda ormai il mantra è *fallo fare all'IA*.  

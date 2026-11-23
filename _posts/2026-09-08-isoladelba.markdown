@@ -2,6 +2,7 @@
 title:  "Isola d'Elba"
 date:   2026-09-08 17:24
 categories: blog
+tags: vacanze elba foto
 ---
 ~~Appena~~ tornato da una vacanza di una settimana all'Elba.  
 Di base siamo stati a Pomonte e da li ci siamo spostati un pò, soprattutto nella parte sud dell'isola.  

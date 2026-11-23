@@ -3,6 +3,7 @@ layout: post
 title: Toyoko Kids | ARTE Reportage
 date: 2026-10-16T17:12:00.000+02:00
 categories: blog
+tags: documentario giappone
 ---
 Vi segnalo questo documentario (anche per provare ad includere codice HTML)
 

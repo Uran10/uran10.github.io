@@ -2,6 +2,7 @@
 title:  "AI"
 date:   2026-08-04 16:16
 categories: blog
+tags: AI Libri
 ---
 Ormai siamo nell'era dell'AI (o IA se lo leggi all'italiana), ma cosa si nasconde sotto cloud, openAI, etc...
 

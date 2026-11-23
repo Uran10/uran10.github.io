@@ -2,6 +2,7 @@
 title:  "Summer Time Rendering"
 date:   2026-08-26 16:08
 categories: blog
+tags: manga
 ---
 Ho iniziato un nuovo Manga, \[Summer Time Rendering](https://www.animeclick.it/manga/25678/summer-time-render) di 
 
