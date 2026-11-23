@@ -21,6 +21,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Titolo", name: "title", widget: "string" }
       - { label: "Data di Pubblicazione", name: "date", widget: "datetime" }
+      - { label: "Categorie", name: "categories", widget: "string", default: "blog", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
       - { label: "Descrizione/Incipit", name: "description", widget: "string", required: false }
       - { label: "Testo del Post", name: "body", widget: "markdown" }
