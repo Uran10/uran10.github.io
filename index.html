@@ -6,7 +6,6 @@ title: Blog
 <hr />
 {% include post_singolo.html %}
 <br />
-<small data-comments-post="{{ post.url | relative_url | escape }}" hidden></small>
 {% endfor %}
 <script src="{{ '/assets/comment-counts.js' | relative_url }}"
         data-api="{{ site.comments_api | escape }}" defer></script>
