@@ -129,12 +129,12 @@ body {
 }
 
 .post-comment-count {
-  text-align: left;
+  text-align: right;
 }
 
 .post-comment-count a {
   color: #a04000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .back-to-top {
