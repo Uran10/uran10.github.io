@@ -128,6 +128,15 @@ body {
   text-align: center;
 }
 
+.post-comment-count {
+  text-align: left;
+}
+
+.post-comment-count a {
+  color: #a04000;
+  text-decoration: underline;
+}
+
 .back-to-top {
   text-align: right;
 }

@@ -5,6 +5,7 @@
 <div class="field-border post-content">
 {{ post.content }}
 </div>
-<div class="status-field-border panel-status">
-<span data-comments-post="{{ post.url | relative_url | escape }}" hidden></sspan>
+{% assign comment_post_url = post.url | relative_url | escape %}
+<div class="status-field-border panel-status post-comment-count">
+  <a href="{{ comment_post_url }}" data-comments-post="{{ comment_post_url }}" hidden></a>
 </div>
