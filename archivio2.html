@@ -32,6 +32,8 @@ title: Archivio mensile
     {% endfor %}
   </template>
 {% endfor %}
+<script src="{{ '/assets/comment-counts.js' | relative_url }}"
+        data-api="{{ site.comments_api | escape }}" defer></script>
 
 <script>
   (function () {
