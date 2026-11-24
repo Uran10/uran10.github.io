@@ -130,6 +130,7 @@ body {
 
 .post-comment-count {
   text-align: right;
+  font-size: 16px;
 }
 
 .post-comment-count a {
