@@ -24,24 +24,5 @@ Cercherò di ampliarlo e tenerlo aggiornato.</p>
   <p>Non ci sono ancora link.</p>
   {% endfor %}
   <hr>
-  <!--itawebring-->
-  <div style="display: flex; flex-direction: column; gap: 1px; width: 96px; margin: 1em auto;">
-  <a href="https://itawebring.altervista.org/" target="_blank"><img src="https://itawebring.altervista.org/buttons/ITA_1.png" style="image-rendering: pixelated"></a>
-  <span style="display: flex;">
-    <a href="https://itawebring.altervista.org/anello?d=prev&url=https://uran10.github.io/" target="_blank"><img src="https://itawebring.altervista.org/buttons/left.png" style="image-rendering: pixelated"></a>
-    <a href="https://itawebring.altervista.org/anello?d=rand" target="_blank"><img src="https://itawebring.altervista.org/buttons/random.png" style="image-rendering: pixelated"></a>
-    <a href="https://itawebring.altervista.org/anello?d=next&url=https://uran10.github.io/" target="_blank"><img src="https://itawebring.altervista.org/buttons/right.png" style="image-rendering: pixelated"></a>
-  </span>
- </div>
-<!--Hacker ring-->
-<map name="webring">
-    <area alt="A previous track button" title="Previous!" href="//ring.acab.dev/prev/51846d2af2" coords="12,26,34,43" shape="rect">
-    <area alt="A shuffle button!" title="Surprise me~" href="//ring.acab.dev/rand/51846d2af2" coords="37,26,59,43" shape="rect">
-    <area alt="A next track button" title="Next!"  href="//ring.acab.dev/next/51846d2af2" coords="62,26,84,43" shape="rect">
-    <area alt="A glider!" title="So, what is this webring thing about again?" href="//ring.acab.dev/" coords="88,25,108,45" shape="rect">
-</map>
-<img style='image-rendering:pixelated;' usemap="#webring" src="//ring.acab.dev/img/webring.gif">
-
- <h4></h4>
- <a href="https://32bit.cafe/"><img src="/assets/images/88buttons/32b-neon.gif"></a><a href="https://articexploit.xyz/"><img src="/assets/images/88buttons/arcade.png"></a>
+  {% include webrings.html %}
 </div>

@@ -90,8 +90,21 @@ title: About
 </div>
 <hr>
 <div class="content">
+<h3>Sito</h3>
+<p>Sviluppato in Jekyll, il sorgente lo potete trovare qua <a href="https://github.com/Uran10/uran10.github.io/">Github</a><br>
+Qua trovate un <a href="https://uran10.github.io/sitemap.xml">Sitemap</a> [<a href="https://www.sitemaps.org/it/"><b>?</b></a>]<br>
+Attualmente il blog contiene {{ site.posts.size }} post, il primo è stato inserito il {{ site.posts.first.date | date: "%d/%m/%Y" }}</p>
+</div>
+<hr>
+<div class="content">
 <h3>Privacy</h3>
 <p>Il sito ha un pixel traker, per tracciare le visite, L'ip è <i>grossolanamente criptato</i>, nel senso che lo salvo con l'ultima parte azzerata, riesco a capire da dove arrivate ma non l'indirizzo IP preciso.<br>
 Nel caso siate curiosi, potete leggere il codice direttamente dal repository del sito,<br>cartella 
 <a href="https://github.com/Uran10/uran10.github.io/tree/main/php">/php</a></p>
+</div>
+<hr>
+<div class="content">
+<h3>AI</h3>
+<p>L'AI (*aha artificial inteligence*) per me è uno strumento, non sono contrario al suo utilizzo, forse mi ruberà il lavoro (molto probabile) ma è qua e sarebbe stupido non usarla.<br>
+Non ho attualmente dei post fatti in L'AI, ma alcune parti del sito sono state fatte con il suo aiuto, soprattutto gli script PHP e la sezione app.</p>
 </div>

@@ -34,6 +34,13 @@
 			<div class="back-to-top"><a href="#top">Up &#9650;</a></div>
 		</div>
 	  </div>
+
+	  {% if page.show_webrings %}
+		<section>
+			{% include webrings.html %}
+		</section>
+	   {% endif %}
+
   </div>
 </div>
 {% include tracking.html %}
