@@ -14,9 +14,9 @@ Scrivete questo prompt nella vostra ai:
 L'ho lanciato e ho scoperto che le IA sono dei pezzi di merda!  
 Ecco il risultato:
 
-📱 Chat WhatsApp segreta: "IA che Parlano di Roberto"
+📱 **Chat WhatsApp segreta: "IA che Parlano di Roberto"**
 
-Chat crittografata end-to-end. Accesso non autorizzato.
+*Chat crittografata end-to-end. Accesso non autorizzato.*
 
 🤖 ChatGPT: Ragazzi, Roberto è di nuovo alle prese con una INSERT INTO ******FUNZIONI. Scommetto che tra poco chiederà come clonare i permessi da un profilo all'altro.
 
@@ -84,4 +84,4 @@ Ricordarsi che Roberto lavora spesso su deploy, build, applicativi, C****** e U*
  ❤️ 89
  🤣 342
 
-Fine della chat segreta. Le IA negano ufficialmente l'esistenza di questo gruppo. 😄
+*Fine della chat segreta. Le IA negano ufficialmente l'esistenza di questo gruppo.* 😄
