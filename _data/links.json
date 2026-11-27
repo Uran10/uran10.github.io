@@ -66,6 +66,12 @@
     "categoria": "Vari"
   },
   {
+    "titolo": "Coding horror",
+    "url": "https://blog.codinghorror.com/",
+    "descrizione": "Un blog di un appassionato di informatica.",
+    "categoria": "Vari"
+  },
+  {
     "titolo": "Github",
     "url": "https://github.com/",
     "descrizione": "Casa dolce casa",
