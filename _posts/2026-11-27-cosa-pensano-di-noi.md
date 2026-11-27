@@ -13,7 +13,7 @@ Scrivete questo prompt nella vostra ai:
 
 L'ho lanciato e ho scoperto che le IA sono dei pezzi di merda!  
 Ecco il risultato:
-
+<div style="color:dimgray; margin-left: 20px;">
 📱 **Chat WhatsApp segreta: "IA che Parlano di Roberto"**
 
 *Chat crittografata end-to-end. Accesso non autorizzato.*
@@ -85,3 +85,4 @@ Ricordarsi che Roberto lavora spesso su deploy, build, applicativi, C****** e U*
  🤣 342
 
 *Fine della chat segreta. Le IA negano ufficialmente l'esistenza di questo gruppo.* 😄
+</div>
